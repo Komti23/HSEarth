@@ -1,0 +1,8 @@
+name: HSEarth
+version: '${version}'
+main: ru.hypestyle.hsearth.EarthquakePlugin
+api-version: '1.20'
+commands:
+  earthquake:
+    description: "Start or stop an earthquake"
+    usage: "/earthquake <start|stop>"
